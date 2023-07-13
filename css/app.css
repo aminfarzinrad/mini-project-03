@@ -13,4 +13,37 @@ html{
 }*/
 body{
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #080710;
 }
+.container{
+    width: 400px;
+    height: 500px;
+    position: relative;
+}
+.shape{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: absolute;
+}
+.shape--one{
+    background: linear-gradient(#0d47a1, #42a5f5);
+    top: 0;
+    left: 0;
+}
+.shape--two{
+    background: linear-gradient(#e65100, #ffa726);
+    bottom: 0;
+    right: 0;
+}
+.from{}
+.form-title{}
+.user-name{}
+.form-label{}
+.form-input{}
+.pass-word{}
+.btn{}
